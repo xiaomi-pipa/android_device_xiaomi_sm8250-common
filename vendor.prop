@@ -251,9 +251,6 @@ persist.vendor.sensors.sync_request=true
 # Shutdown
 sys.vendor.shutdown.waittime=500
 
-# Subsystem Restart
-persist.vendor.ssr.restart_level=ALL_ENABLE
-
 # USB
 ro.usb.uvc.enabled=true
 sys.usb.mtp.batchcancel=1
