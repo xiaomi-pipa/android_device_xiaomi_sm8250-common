@@ -32,9 +32,6 @@ debug.sf.enable_hwc_vds=1
 debug.sf.predict_hwc_composition_strategy=0
 persist.vendor.color.matrix=2
 
-# DPM
-persist.vendor.dpm.feature=1
-
 # Fwk detect
 ro.vendor.qti.va_aosp.support=1
 
