@@ -103,6 +103,7 @@ on early-boot
     chmod 0664 /mnt/vendor/persist/data/pfm/licenses/store_3
     chown system system /mnt/vendor/persist/data/pfm/licenses/store_4
     chmod 0664 /mnt/vendor/persist/data/pfm/licenses/store_4
+    stop console
 
     # Charging
     chown system system /sys/class/power_supply/battery/charging_enabled
