@@ -253,6 +253,7 @@ endif
 
 # GMS
 WITH_GMS_COMMS_SUITE := false
+USE_TABLET_BT_COD := true
 
 # HotwordEnrollement app permissions
 PRODUCT_COPY_FILES += \
