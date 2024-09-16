@@ -296,6 +296,10 @@ $(call soong_config_set,lineage_health,charging_control_supports_bypass,false)
 # Libinit
 $(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):init_xiaomi_kona)
 
+# Logging
+SPAMMY_LOG_TAGS := \
+    SensorService
+
 # Media configs
 PRODUCT_PACKAGES += \
     media_codecs_c2.xml \
