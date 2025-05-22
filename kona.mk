@@ -414,7 +414,8 @@ PRODUCT_PACKAGES += \
     init.qcom.post_boot.sh \
     init.qcom.sh \
     init.qti.dcvs.sh \
-    init.mi.thermal.sh
+    init.mi.thermal.sh \
+    init.fast.charge.sh
 
 PRODUCT_PACKAGES += \
     fstab.zram \
@@ -425,7 +426,8 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     init.xiaomi.rc \
     ueventd.qcom.rc \
-    init.mi.thermal.rc
+    init.mi.thermal.rc \
+    init.fast.charge.rc
 
 # Sensors
 PRODUCT_PACKAGES += \
