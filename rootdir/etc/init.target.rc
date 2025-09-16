@@ -227,9 +227,6 @@ on boot
     chown system system /mnt/vendor/persist/vpp/tunings.txt
     chmod 0666 /mnt/vendor/persist/vpp/tunings.txt
 
-    # default country code
-    setprop ro.boot.wificountrycode 00
-
 on boot
     # FPS Info permissions
     chown system graphics /sys/class/drm/sde-crtc-0/measured_fps
